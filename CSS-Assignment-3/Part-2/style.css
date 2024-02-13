@@ -9,10 +9,13 @@ div {
   width: 200px;
   height: 200px;
   background-color: red;
+  line-height: 11;
   text-align: center;
   font-size: 1.06rem; /* 17 / 16 = 1.06 */
   color: white;
   text-shadow: 1.5px 1.5px black;
   border-radius: 10px;
   border: 1px solid darkred;
+  background-image: linear-gradient(to top left, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0));
+  box-shadow: 2px 2px 5px black, inset 2px 2px 3px rgba(255,255,255,0.6), inset -2px -2px 3px rgba(0,0,0,0.6);
 }
