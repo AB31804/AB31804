@@ -3,3 +3,16 @@ html {
 }
 
 /* Your CSS below here */
+
+div {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  text-align: center;
+  font-size: 1.06rem; /* 17 / 16 = 1.06 */
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+  border-radius: 10px;
+  border: 1px solid darkred;
+}
