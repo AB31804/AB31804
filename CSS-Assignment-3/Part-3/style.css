@@ -1,5 +1,25 @@
 /* General setup */
 
+@font-face {
+  font-family: "broncoregular";
+  src:
+    url("bronco/broncopersonaluse-webfont.woff") format("woff"),
+    url("bronco/broncopersonaluse-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "tommyregular";
+  src:
+    url("tommy/made_tommy_regular_personal_use-webfont.woff") format("woff"),
+    url("tommy/made_tommy_regular_personal_use-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +28,8 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-family: "tommyregular", serif;
+  font-size: 10px;
 }
 
 /* Layout */
@@ -43,3 +65,7 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+h1, h2 {
+  font-family: "broncoregular", serif;
+}
