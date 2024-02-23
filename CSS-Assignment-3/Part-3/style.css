@@ -30,6 +30,9 @@ body {
   max-width: 1400px;
   font-family: "tommyregular", serif;
   font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 /* Layout */
@@ -37,6 +40,7 @@ body {
 section {
   float: left;
   width: 50%;
+  text-indent: 20px;
 }
 
 aside {
@@ -68,4 +72,41 @@ header, footer {
 
 h1, h2 {
   font-family: "broncoregular", serif;
+  letter-spacing: 2px;
+  text-indent: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+a {
+  outline: none;
+}
+a:link {
+  color: #a66;
+  text-decoration: underline;
+}
+a:visited {
+  color: rgba(255, 0, 0, 0.611);
+}
+a:hover {
+  color: rgb(255, 143, 6);
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+a[href^="http"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 15px 15px;
+  padding-right: 19px;
 }
