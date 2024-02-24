@@ -107,6 +107,12 @@ a:active {
 
 a[href^="http"] {
   background: url("external-link-52.png") no-repeat 100% 0;
-  background-size: 15px 15px;
+  background-size: 12px 12px;
   padding-right: 19px;
+}
+
+ol, ul {
+  list-style-type: square;
+  line-height: 14px;
+  margin: 0.1rem;
 }
