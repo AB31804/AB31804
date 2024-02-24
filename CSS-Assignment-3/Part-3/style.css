@@ -114,5 +114,31 @@ a[href^="http"] {
 ol, ul {
   list-style-type: square;
   line-height: 14px;
-  margin: 0.1rem;
+  margin: 1rem;
+}
+
+
+nav ol, nav ul {
+  list-style-type: none;
+}
+
+nav a, nav a:link, nav a:visited, nav a:focus {
+  margin: 5%;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 5;
+  color: black;
+  background: palegoldenrod;
+
+  width: 100%;
+  display: inline-block;
+}
+
+nav a:hover {
+  background: orange;
+}
+nav a:active {
+  background: darkred;
+  color: white;
 }
