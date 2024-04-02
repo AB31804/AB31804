@@ -44,6 +44,6 @@ function result() {
         newStory = newStory.replaceAll('300 pounds', temperature)
     }
 
-    story.textContent = ;
+    story.textContent = newStory;
     story.style.visibility = 'visible';
 }
