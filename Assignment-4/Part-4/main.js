@@ -109,7 +109,7 @@ class EvilCircle extends Shape {
     ctx.stroke();
   }
 
-  update() {
+  checkBounds() {
     if ((this.x + this.size) >= width) {
       this.x = -(this.size);
     }
@@ -181,7 +181,7 @@ function loop() {
   }
 
   evilCircle.draw();
-  evilCircle.update();
+  evilCircle.checkBounds();
   evilCircle.collisionDetect();
   requestAnimationFrame(loop);
 }
