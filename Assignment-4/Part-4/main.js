@@ -68,7 +68,7 @@ class Ball extends Shape {
 
   collisionDetect() {
     for (const ball of balls) {
-      if (this !== ball) {
+      if (!(this === ball) && ball.exists) {
         const dx = this.x - ball.x;
         const dy = this.y - ball.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
@@ -78,7 +78,7 @@ class Ball extends Shape {
         }
       }
     }
-  }
+  }  
 }
 
 const testBall = new Ball(50, 100, 4, 4, "blue", 10);
