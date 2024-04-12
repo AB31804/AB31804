@@ -35,8 +35,8 @@
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
+        <input type="search" name="q" placeholder="Search query" aria-label="Search query">
+        <input type="submit" value="Go!" aria-label="Go!">
       </form>
     </nav>
 
@@ -114,15 +114,15 @@
 
             <form class="comment-form">
               <div class="flex-pair">
-                Your name:
-                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label>Your name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" aria-label="Enter your name">
               </div>
               <div class="flex-pair">
-                Your comment:
-                <input type="text" name="comment" id="comment" placeholder="Enter your comment">
+                <label>Your comment:</label>
+                <input type="text" name="comment" id="comment" placeholder="Enter your comment" aria-label="Enter your comment">
               </div>
               <div>
-                <input type="submit" value="Submit comment">
+                <input type="submit" value="Submit comment" aria-label="Submit comment">
               </div>
             </form>
 
