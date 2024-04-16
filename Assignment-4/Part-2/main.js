@@ -18,7 +18,8 @@ const texts = {
 
 /* Looping through images */
 for (const image of images){
-    const newImage = document.createElement('img');
+    const newImage = document.createElement('input');
+    newImage.setAttribute('type', 'image')
     newImage.setAttribute('src', `images/${image}`);
     newImage.setAttribute('alt', texts[image]);
     thumbBar.appendChild(newImage);

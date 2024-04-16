@@ -98,8 +98,15 @@ class EvilCircle extends Shape {
           this.y += this.velY;
           break;
       }
-    });    
+    });   
+    
+    window.addEventListener("mousedown", (e) => {
+      this.x = e.clientX;
+      this.y = e.clientY;
+    });
   }
+
+
 
   draw() {
     ctx.beginPath();
